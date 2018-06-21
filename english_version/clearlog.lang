@@ -1,0 +1,149 @@
+##############################################
+##  !/bin/bash
+## __     __   __     ______   ______    
+##/\ \   /\ "-.\ \   /\  ___\ /\  __ \   
+##\ \ \  \ \ \-.  \  \ \  __\ \ \ \/\ \  
+## \ \_\  \ \_\\"\_\  \ \_\    \ \_____\ 
+##  \/_/   \/_/ \/_/   \/_/     \/_____/ 
+##
+##  - Checks fileage
+##  - if a file exceeds the max age, 
+##    the content will be overwritten
+##  - creates logs what it does
+##
+##  Script author:
+##  https://github.com/Deadalus3010
+##
+##  comparedate() from ashrithr:
+##  https://gist.github.com/ashrithr/5614283
+##
+##  displaytime() from Stéphane Gimenez:
+##  https://unix.stackexchange.com/users/9426/st%c3%a9phane-gimenez
+##  https://unix.stackexchange.com/questions/27013/displaying-seconds-as-days-hours-mins-seconds
+##
+##############################################
+#
+#   _____ _                 _                 
+#  / ____| |               | |                
+# | |    | | ___  __ _ _ __| |     ___   __ _ 
+# | |    | |/ _ \/ _' | '__| |    / _ \ / _' |
+# | |____| |  __/ (_| | |  | |___| (_) | (_| |
+#  \_____|_|\___|\__,_|_|  |______\___/ \__, |
+#                                        __/ |
+#                                       |___/
+#
+##############################################
+##
+##   __                                          
+##  / /  __ _ _ __   __ _ _   _  __ _  __ _  ___ 
+## / /  / _` | '_ \ / _` | | | |/ _` |/ _` |/ _ \
+##/ /__| (_| | | | | (_| | |_| | (_| | (_| |  __/
+##\____/\__,_|_| |_|\__, |\__,_|\__,_|\__, |\___|
+##                  |___/             |___/
+#################			##########################
+##								##
+##  IMPORTANT! Please do not remove control characters like:	##
+##  "$something", \n,          					##
+##								##
+#################			##########################
+##
+##
+## Output of time for Console + Script Log + overwritten log file
+## Important for the displaytime() function
+DATEOUTPUTS=$"Second(s)"
+DATEOUTPUTM=$"Minute(s)"
+DATEOUTPUTH=$"Hour(s)"
+DATEOUTPUTD=$"Day(s)"
+##
+## Debug, reads settings and writes them to the console and to the Script log file when running clearlog.sh
+## Unfortunately, I can not run MAXAGE through the displaytime() function, so you have to write days // hours // minutes // seconds
+## by yourself here
+## (This is not possible, because you can not execute functions via text output)
+LANG_DEBUG=$"Files found.\nFiles can be max. "$MAXAGE" Seconds old.\nDo we allow logs? "$LOGALLOW".\nDo we allow moving old log files? "$CLEARMOVEFILEALLOW".\nDo we allow to delete old log files? "$CLEARLOGDELETEALLOW"."
+##
+##  Called when no files are found.
+LANG_FILEDONTEXISTS="Files do not exist"
+##
+##  Checks if there are the log files to clear
+LANG_COMPAREDATECHECK="Nothing to Check, since there are no "$CLEARNAME" files."
+##
+##  Checks if clearlog.log is present
+LANG_CHECKLOGFILE="Did we create a .log file?"
+##
+##  clearlog.log ´found
+LANG_LOGFILEFOUND="<"$LOGFILE"> found.\n"
+##
+##  clearlog.log not found
+LANG_LOGFILENOTFOUND="<"$LOGFILE"> not found, was created.\n"
+##
+##  Returns errors if it can not create clearlog.log.
+LANG_LOGFILECREATEERROR="ERROR: Could not create <"$LOGFILE">!"
+##
+##  Output for clearlog.log at the top of the Script log file.
+LANG_LOGFILEPATHCREATE="created"
+##
+##  Checks if there is a folder for the already cleared logs.
+LANG_CHECKMOVEFOLDER="Did we create a folder for old logs?"
+##
+##  Move Folder found.
+LANG_MOVEFOLDERFOUND="<"$CLEARMOVEFOLDER"> found."
+##
+##  Move Folder not found
+LANG_MOVEFOLDERNOTFOUND="<"$CLEARMOVEFOLDER"> not found, is created.\n"
+##
+##  Returns error if he can not create the Move folder.
+LANG_MOVEFOLDERCREATEERROR="ERROR: Could not create <"$CLEARMOVEFOLDER">!"
+##
+##  Output for clearlog.log at the top of the log file.
+LANG_MOVEFOLDERCREATE="created"
+##
+##  Debug to show that he jumps into the If method
+LANG_CHECKAGE="Check age"
+##
+##  Output when the word "file" is called
+LANG_FILENAME="File" 
+##
+##  Output when a file is to be checked
+LANG_CLEARCHECK="Will be checked"
+##
+##  Output when a file is overwritten
+LANG_CLEAR="File overwritten"
+##
+##  Output if a file age is to be called
+LANG_FILEAGE="File age"
+LANG_FILEAGE2="old"
+##
+##  Output if a file is to be deleted
+LANG_CLEARDELETE="deleted, because"
+LANG_CLEARDELETE2="was deleted"
+##
+##  Output when the maximum age is called
+LANG_MAXAGEEXCEEDED="was the maximum age"
+LANG_MAXAGE="is the maximum age"
+##
+##  Output when a file is to be moved
+LANG_MOVETO="to"
+##
+##  Output if an error occurred during deletion
+LANG_DELETEWASUNSUCCESSFUL="<"$FILEDATE"> ERROR: could not delete "$FILENAME"!"
+##
+##  Ausgabe, wenn das Löschen erfolgreich war
+LANG_DELETEWASSUCCESSFUL="<"$FILEDATE"> "$FILENAME" successfully deleted!"
+##
+##  Ausgabe wenn er nichts gemacht hat
+LANG_DELETENOTHING="<"$FILEDATE"> "$FILENAME" was not deleted.\n"
+##
+##  Output, if something was cleared
+LANG_WASCLEARED="was cleared"
+##
+##  Output, if something was not cleared
+LANG_WASNOTCLEARED="was not cleared"
+##
+##  Output, if a file was moved
+LANG_MOVEACTIVITY="was moved to the folder"
+##
+##  Checks file, but does not change it
+LANG_CHECKFILEAGE="checked but not changed"
+##
+##
+##############################################

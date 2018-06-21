@@ -1,0 +1,85 @@
+   _____ _                 _                 
+  / ____| |               | |                
+ | |    | | ___  __ _ _ __| |     ___   __ _ 
+ | |    | |/ _ \/ _' | '__| |    / _ \ / _' |
+ | |____| |  __/ (_| | |  | |___| (_) | (_| |
+  \_____|_|\___|\__,_|_|  |______\___/ \__, |
+                                        __/ |
+                                       |___/
+<21-06-2018 | 12:15:43> /home/ts3server/serverfiles/crontest/clearlog/ts3clearlog.log created
+
+16 Files found.
+Files can be max. 60 Seconds old.
+Do we allow logs? 1.
+Do we allow moving old log files? 0.
+Do we allow to delete old log files? 0.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_ldas' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_ldasdsad' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_lfff' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_lfffret' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_llllllllol' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_lllllwdasdas' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_lol' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_lowqdsad' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_refdsg' was cleared, File was 1 Minute(n) and 49 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_refdsgdsgh' was cleared, File was 1 Minute(n) and 50 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_te' was cleared, File was 1 Minute(n) and 50 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_tere' was cleared, File was 1 Minute(n) and 50 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_terew' was cleared, File was 1 Minute(n) and 50 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_test' was cleared, File was 1 Minute(n) and 50 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_xx' was cleared, File was 1 Minute(n) and 50 Second(s) old.
+
+<21-06-2018 | 12:15:43> '/home/ts3server/serverfiles/crontest/ts3client_xxx' was cleared, File was 1 Minute(n) and 50 Second(s) old.
+
+16 Files found.
+Files can be max. 60 Seconds old.
+Do we allow logs? 1.
+Do we allow moving old log files? 0.
+Do we allow to delete old log files? 0.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_ldas' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_ldasdsad' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_lfff' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_lfffret' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_llllllllol' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_lllllwdasdas' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_lol' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_lowqdsad' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_refdsg' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_refdsgdsgh' checked but not changed, File was 41 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_te' checked but not changed, File was 41 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_tere' checked but not changed, File was 41 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_terew' checked but not changed, File was 41 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_test' checked but not changed, File was 41 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_xx' checked but not changed, File was 41 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
+
+<21-06-2018 | 12:16:25> '/home/ts3server/serverfiles/crontest/ts3client_xxx' checked but not changed, File was 42 Second(s). - 1 Minute(s) and 0 Second(s) is the maximum age.
