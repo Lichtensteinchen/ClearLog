@@ -41,3 +41,14 @@ Because im nowhere near a professional shell scripter or a native english speake
 (Maybe first write in the comments why you add me, just to inform me)
 - Join my Teamspeak: ts.platincore.de
 - Add me on Discord: Deadalus | #5692
+
+# Credits
+
+Without those 2 functions this wouldnt be possible
+
+comparedate() from ashrithr:
+https://gist.github.com/ashrithr/5614283
+
+displaytime() from Stéphane Gimenez:
+https://unix.stackexchange.com/users/9426/st%c3%a9phane-gimenez
+https://unix.stackexchange.com/questions/27013/displaying-seconds-as-days-hours-mins-seconds
