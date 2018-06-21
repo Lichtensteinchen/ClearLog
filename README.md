@@ -5,7 +5,7 @@ An shell bash script, which checks the file age of logs and overwrites them, mov
 
 # What is Clearlog?
 
-Clearlog is a bash Script, that checks the age of a file. When it exceeds the time limit, the file contents will be overwritten with a timestamp [i]when[/i] it was overwritten and how old the file was. 
+Clearlog is a bash Script, that checks the age of a file. When it exceeds the time limit, the file contents will be overwritten with a timestamp it was overwritten and how old the file was. 
 
 Clearlog also logs everything it does in the console and when you allow it, in an extra clearlog.log (customizable) file.
 For instance, when you run clearlog and the file did not hit the time limit, an timestamp, the fileage and the maximum file age will be written at the bottom of the log file.
