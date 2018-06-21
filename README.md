@@ -1,4 +1,12 @@
-# ClearLog
+#   _____ _                 _                 
+#  / ____| |               | |                
+# | |    | | ___  __ _ _ __| |     ___   __ _ 
+# | |    | |/ _ \/ _' | '__| |    / _ \ / _' |
+# | |____| |  __/ (_| | |  | |___| (_) | (_| |
+#  \_____|_|\___|\__,_|_|  |______\___/ \__, |
+#                                        __/ |
+#                                       |___/
+
 
 TL:DR
 An shell bash script, which checks the file age of logs and overwrites them, moves them and deletes them.
