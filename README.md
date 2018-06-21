@@ -37,7 +37,7 @@ When you have problems or run into a problem, please dont hesitate to contact me
 
 Because im nowhere near a professional shell scripter or a native english speaker and you know ways to shorten my script up or fix my broken english, just leave a message and we talk about everything. Or open an issue here.
 
-Message me on Steam: https://steamcommunity.com/id/deadalus3010 
+- Message me on Steam: https://steamcommunity.com/id/deadalus3010 
 (Maybe first write in the comments why you add me, just to inform me)
-Join my Teamspeak: ts.platincore.de
-Add me on Discord: Deadalus | #5692
+- Join my Teamspeak: ts.platincore.de
+- Add me on Discord: Deadalus | #5692
