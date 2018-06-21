@@ -47,8 +47,10 @@ Because im nowhere near a professional shell scripter or a native english speake
 Without those 2 functions this wouldnt be possible
 
 comparedate() from ashrithr:
+
 https://gist.github.com/ashrithr/5614283
 
 displaytime() from Stéphane Gimenez:
+
 https://unix.stackexchange.com/users/9426/st%c3%a9phane-gimenez
 https://unix.stackexchange.com/questions/27013/displaying-seconds-as-days-hours-mins-seconds
